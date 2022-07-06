@@ -1,6 +1,5 @@
-// let connection = require('./play')
-
 let connection;
+
 const setupInput = function (conn) {
   connection = conn;
   const stdin = process.stdin;
