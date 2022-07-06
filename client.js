@@ -24,3 +24,29 @@ const connect = function () {
 };
 
 module.exports = { connect };
+
+// setTimeout(() => {
+//   conn.write('Move: up');
+// }, 1000)
+
+// setTimeout(() => {
+//   conn.write('Move: left');
+// }, 1500)
+
+// setTimeout(() => {
+//   conn.write('Move: left');
+// }, 2000)
+
+// setTimeout(() => {
+//   conn.write('Move: down');
+// }, 2500)
+
+// setTimeout(() => {
+//   conn.write('Move: right');
+// }, 3000)
+
+// conn.on('connect', () => {
+// setInterval(() => {
+//   conn.write('Move: up')
+// }, 50)
+// });
