@@ -12,7 +12,8 @@ module.exports = {
     d: 'right'
   },
   message: {
-    m: 'HA',
-    n: 'LOL'
+    m: 'HA!',
+    n: 'LOL',
+    b: "Speedy Gonzales!"
   }
 };
