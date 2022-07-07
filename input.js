@@ -16,10 +16,6 @@ const setupInput = function (conn) {
 const handleUserInput = function (key) {
   if (key === '\u0003') process.exit();
   if (move_keys[key]) connection.write('Move: ' + move_keys[key]);
-  if (move_keys[key]) connection.write('Move: ' + move_keys[key]);
-  if (move_keys[key]) connection.write('Move: ' + move_keys[key]);
-  if (move_keys[key]) connection.write('Move: ' + move_keys[key]);
-  if (message[key]) connection.write(`Say: ${message[key]}`);
   if (message[key]) connection.write(`Say: ${message[key]}`);
 };
 
